@@ -34,5 +34,29 @@
       ```
       <title>HTML 기본 문서</title>
       ```                     
-
 + < body > ~ < /body > : 실제로 웹 브라우저 화면에 나타나는 내용 
+
+## HTML의 기본 구조 자동 생성
++ 첫 번째 줄에 "!"를 입력한 후 tab 또는 enter를 누르면 된다. 다음과 같이 자동 완성된 코드에서 원하는 방식으로 수정하면 된다. 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+```
+
+## 시맨틱 태그
++ 시맨틱 태그 : 해당 이름만 봐도 의미를 알 수 있는 것
+    ex) 텍스트 단락 -> < p >태그, 앵커 -> < a >태그
+  + 사용 이유
+    1) 웹 브라우저가 HTML의 소스 코드만 봐도 어느 부분이 제목이고 메뉴이고 본문 내용인지 쉽게 알 수 있음
+    2) 문서 구조가 정확하게 나뉘어 PC나 모바일의 웹 브라우저와 여러 스마트 기기의 다양한 화면에서 웹 문서를 표현하기 쉬움
+    3) 인터넷에서 웹 사이트를 검색할 떄 필요한 내용을 정확히 찾을 수 있음
